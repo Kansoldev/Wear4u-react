@@ -1,4 +1,5 @@
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       >
         <p>Promo: Free shipping in every orders</p>
       </div>
+
+      <Header />
     </>
   );
 }
