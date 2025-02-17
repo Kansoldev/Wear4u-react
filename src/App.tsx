@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import heroImage from "./assets/img/hero.jpg";
 import arrivals from "./assets/img/arrivals.jpg";
 
@@ -562,6 +563,8 @@ function App() {
           ))}
         </div>
       </section>
+
+      <Footer />
     </>
   );
 }
